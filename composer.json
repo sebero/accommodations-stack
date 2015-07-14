@@ -1,0 +1,27 @@
+{
+    "name": "stack/release-map",
+    "description": "Release Map Middleware.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergi Bech",
+            "email": "sebero@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Stack\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/http-kernel": "~2.1",
+        "symfony/http-foundation": "~2.1"
+    },
+    "require-dev": {
+        "stack/callable-http-kernel": "~1.0@dev",
+        "phpunit/phpunit": "~3.7",
+        "silex/silex": "~1.0@dev",
+        "stack/builder": "~1.0@dev"
+    }
+}
